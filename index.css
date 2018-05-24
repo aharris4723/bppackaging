@@ -20,7 +20,9 @@ ul {
     box-shadow: 5px 5px black;
 
 }
-
+audio{
+  text-align: center;
+}
 body{
 	background-color: #00BFFF;
 }
@@ -32,7 +34,7 @@ li{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -54,8 +56,9 @@ li :hover {
    bottom:0px;
    height:30px;
    width:100%;
-   background: #AFEEEE;
-   color: blue;
+   background: black;
+   color: white;
+   font-family: 'IBM Plex Sans', sans-serif;
 }
 @function makelongshadow($length,$angle) {
   $val: 0px 0px transparent;
@@ -65,10 +68,11 @@ li :hover {
   @return $val;
 }
 h1 {
+  /*text-decoration: underline;*/
   color: red;
   text-align: center;
   font-family: 'Fascinate', cursive;
-  font-size: 15vmin;
+  font-size: 20vmin;
   font-weight: 700;
   background-color: #00BFFF;
   text-shadow: 4px 4px black;
@@ -85,6 +89,7 @@ p{
 	padding-bottom: 2%;
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 15pt;
+
 }
 
 @keyframes netflix_style {
